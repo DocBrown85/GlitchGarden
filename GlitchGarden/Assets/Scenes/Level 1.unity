@@ -349,8 +349,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406,
-    type: 3}
+  attackerPrefabArray:
+  - {fileID: 4649182235552943330, guid: 7f0d537b0f449324a9dcbfb96c938e06, type: 3}
 --- !u!4 &461864310 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5378625251160894108, guid: 69b7ed34c4039834daaa49aeafbab8db,
@@ -724,8 +724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406,
-    type: 3}
+  attackerPrefabArray:
+  - {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406, type: 3}
 --- !u!4 &1260076571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5378625251160894108, guid: 69b7ed34c4039834daaa49aeafbab8db,
@@ -956,8 +956,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406,
-    type: 3}
+  attackerPrefabArray:
+  - {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406, type: 3}
+  - {fileID: 4649182235552943330, guid: 7f0d537b0f449324a9dcbfb96c938e06, type: 3}
 --- !u!4 &1524402911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5378625251160894108, guid: 69b7ed34c4039834daaa49aeafbab8db,
@@ -1231,8 +1232,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406,
-    type: 3}
+  attackerPrefabArray:
+  - {fileID: 4649182235552943330, guid: 7f0d537b0f449324a9dcbfb96c938e06, type: 3}
+  - {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406, type: 3}
 --- !u!4 &1742422863 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5378625251160894108, guid: 69b7ed34c4039834daaa49aeafbab8db,
@@ -1363,8 +1365,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406,
-    type: 3}
+  attackerPrefabArray:
+  - {fileID: 1546701325720557854, guid: 8548070bb7413cb45b5a640de37d8406, type: 3}
+  - {fileID: 4649182235552943330, guid: 7f0d537b0f449324a9dcbfb96c938e06, type: 3}
 --- !u!4 &1929110827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5378625251160894108, guid: 69b7ed34c4039834daaa49aeafbab8db,
