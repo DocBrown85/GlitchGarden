@@ -7,8 +7,17 @@ public class Attacker : MonoBehaviour
 {
     [Range(0f, 5f)] float currentSpeed = 1f;
     GameObject currentTarget;
-    
-    // Update is called once per frame
+
+    private void Awake()
+    {
+        FindObjectOfType<LevelController>().AttackerSpawned();
+    }
+
+    private void OnDestroy()
+    {
+        FindObjectOfType<LevelController>().AttackerKilled();
+    }
+
     void Update()
     {
         transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
